@@ -1,5 +1,7 @@
-package org.example;
+package org.example.commands;
 
 public interface ICommand {
+
     void execute();
+
 }
