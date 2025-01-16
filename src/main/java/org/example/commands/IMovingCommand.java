@@ -10,6 +10,7 @@ public class IMovingCommand implements ICommand {
     }
 
     public void execute() {
-        movingObject.setPosition(new Number[] {movingObject.getPosition()[0], movingObject.getVelocity()[1]});
+        movingObject.setPosition(new Number[] {(Double) movingObject.getPosition()[0] + (Double) movingObject.getVelocity()[0],
+                (Double) movingObject.getPosition()[1] + (Double) movingObject.getVelocity()[1]});
     }
 }
