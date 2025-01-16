@@ -4,7 +4,7 @@ import org.example.models.UObject;
 import org.example.models.IRotatingObject;
 
 public class RotatingObjectAdapter implements IRotatingObject {
-    UObject uObject;
+    private UObject uObject;
 
     public RotatingObjectAdapter(UObject uObject) {
         this.uObject = uObject;

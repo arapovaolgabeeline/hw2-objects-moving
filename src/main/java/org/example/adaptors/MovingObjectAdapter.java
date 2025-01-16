@@ -3,11 +3,8 @@ package org.example.adaptors;
 import org.example.models.UObject;
 import org.example.models.IMovingObject;
 
-/*
-* а нахуя тут адаптер, если там не было? тут у нас нет реализации IMovingObject, чтобы сделать команду - но и там не было
- * */
 public class MovingObjectAdapter implements IMovingObject {
-    UObject uObject;
+    private UObject uObject;
 
     public MovingObjectAdapter(UObject uObject) {
         this.uObject = uObject;
